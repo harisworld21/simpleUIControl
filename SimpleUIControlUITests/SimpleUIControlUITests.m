@@ -43,7 +43,7 @@
     XCUIElement *passwordSecureTextField = app.secureTextFields[@"Password"];
     [passwordSecureTextField tap];
     [passwordSecureTextField typeText:@"Pras"];
-    app.buttons[@"login"].tap;
+    [app.buttons[@"login"] tap];
 }
 
 @end
