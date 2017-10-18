@@ -32,6 +32,8 @@
     [super tearDown];
 }
 
+
+
 - (void)testExample {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -43,7 +45,9 @@
     XCUIElement *passwordSecureTextField = app.secureTextFields[@"Password"];
     [passwordSecureTextField tap];
     [passwordSecureTextField typeText:@"Pras"];
-    [app.buttons[@"login"] tap];
+    XCUIElement *loginButton = app.buttons[@"Login"];
+    [loginButton tap];
+
 }
 
 @end
