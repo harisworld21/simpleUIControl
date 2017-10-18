@@ -160,6 +160,7 @@
 				TargetAttributes = {
 					4796E3AC1F8D3D1500D9D1F0 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LWQS96PGKL;
 						ProvisioningStyle = Automatic;
 					};
 					4796E3C51F8D3D1700D9D1F0 = {
@@ -351,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LWQS96PGKL;
 				INFOPLIST_FILE = SimpleUIControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleUIControl;
@@ -362,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LWQS96PGKL;
 				INFOPLIST_FILE = SimpleUIControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleUIControl;
@@ -410,6 +413,7 @@
 				4796E3D11F8D3D1700D9D1F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4796E3D21F8D3D1700D9D1F0 /* Build configuration list for PBXNativeTarget "SimpleUIControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +422,7 @@
 				4796E3D41F8D3D1700D9D1F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
